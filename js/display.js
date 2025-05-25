@@ -1,3 +1,6 @@
+
+
+
 // const data = JSON.parse(localStorage.getItem('projectData'));
 
 //     if (data) {
@@ -15,7 +18,8 @@
 //       document.getElementById('output').textContent = 'No data found.';
 //     }
 
-fetch('/data')
+
+fetch("/data.json")
       .then(res => res.json())
       .then(data => {
         document.getElementById('output').innerHTML = `
