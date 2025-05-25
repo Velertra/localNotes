@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Local Notes</title>
+        <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    </head>
+    <body>
+        <h1>Local Notes</h1>
+     
+        <form id="notesForm">
+            <!-- School Section -->
+            <div class="form-section">
+            <label for="school">School (Number)</label>
+            <input type="number" id="school" name="school">
+            </div>
+
+            <!-- Shop Section -->
+            <div class="form-section">
+            <label for="sales">Shop - Sales Amount</label>
+            <input type="number" id="sales" name="sales">
+
+            <label for="completeOrder">Shop - Complete Order Amount</label>
+            <input type="number" id="completeOrder" name="completeOrder">
+            </div>
+
+            <!-- Trailer Notes -->
+            <div class="form-section">
+            <label for="trailerNotes">Trailer Notes</label>
+            <textarea id="trailerNotes" name="trailerNotes" rows="4"></textarea>
+            </div>
+
+            <!-- Leads Notes -->
+            <div class="form-section">
+            <label for="leadsNotes">Leads Notes</label>
+            <textarea id="leadsNotes" name="leadsNotes" rows="4"></textarea>
+            </div>
+
+            <!-- Code Section -->
+            <div class="form-section">
+            <label for="projectTitle">Current Project Title</label>
+            <input type="text" id="projectTitle" name="projectTitle">
+
+            <label for="projectLink">Project Link</label>
+            <input type="url" id="projectLink" name="projectLink" placeholder="https://example.com">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <script src="js/saveForm.js"></script>
+    </body>
+</html>
