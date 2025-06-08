@@ -1,9 +1,9 @@
 {
   "school": "2",
-  "sales": "",
-  "completeOrder": "",
-  "trailerNotes": "",
-  "leadsNotes": "",
-  "projectTitle": "",
-  "projectLink": ""
+  "sales": "11",
+  "completeOrder": "0",
+  "trailerNotes": "06/07/25\n<br>\nphone number needed, or way to direct calls\n<br>\nDown-payment needed\n<br>\npost tests",
+  "leadsNotes": "-Look for way to test on Craigs in OfferUp.\n<br><br>\n-find cheapest payment ads for testing\n<br><br>\n- Finish Site template set up.",
+  "projectTitle": "Local Notes",
+  "projectLink": "https://local-notes-9ckx.vercel.app/"
 }
